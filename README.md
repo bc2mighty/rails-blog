@@ -2,7 +2,7 @@
 
 ### This is a simple blog built with Ruby on Rails and SQLite3 Database
 
-### Things in this project are:
+### Actions in this project are:
 
 * Create posts
 
