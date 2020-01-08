@@ -1,24 +1,17 @@
-# README
+# Ruby Blog
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### This is a simple blog built with Ruby on Rails and SQLite3 Database
 
-Things you may want to cover:
+### Things in this project are:
 
-* Ruby version
+* Create posts
 
-* System dependencies
+* Update Posts
 
-* Configuration
+* View Posts
 
-* Database creation
+* Delete Posts
 
-* Database initialization
+* Create Comments
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Delete Comments
