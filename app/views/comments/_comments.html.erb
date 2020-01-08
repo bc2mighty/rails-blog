@@ -1,0 +1,15 @@
+
+<h5>Comments</h5>
+<% @post.comments.order(id: :DESC).each do |comment| %>
+    <div class="well">
+        <p>
+            <strong>
+                <%= comment.username %>:
+            </strong>
+            <span> <%= comment.body %></span>
+            <span>
+                <%= link_to 'X', [comment.post, comment], method: :delete, data: {confirm: 'Are you sure?'}, :class => 'btn btn-danger' %>
+            </span>
+        </p>
+    </div>
+<% end %>
